@@ -1,0 +1,81 @@
+/* removing base styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: roboto, sans-serif;
+  font-weight: 900;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Body Styles */
+
+.flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+.row {
+  flex-direction: row;
+}
+
+/* Sections */
+nav, section {
+  padding: 30px;
+}
+section {
+  /* height: 50vh; */
+  outline: 1px solid red;
+}
+.navigation {
+  width: 100%;
+}
+.navItem {
+  margin: 0px 10px;
+}
+.logo {
+
+}
+.logo span {
+
+}
+.hero {
+  background-image:url('../images/bar_backdrop.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  height: 75vh;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, .6);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+.mission {
+  flex-direction: column;
+  text-align: center;
+}
+.prototype {
+  flex-direction: column;
+}
+.prototype_image {
+  display: flex;
+}
+.prototype h3 {
+  text-align: center;
+}
+.prototype_image img {
+  width: 22%;
+  margin: 1%;
+}
+.CTA {
+  max-width: 500px;
+}
